@@ -189,8 +189,7 @@ class libreswan (
   Optional[Enum['yes', 'no']]            $rekey                   = 'no',
   Optional[Enum['add', 'ondemand', 'start', 'ignore']]                       $auto                    = 'ondemand',
   Optional[Enum['rsasig', 'secret', 'secret|rsasig', 'never', 'null']]                       $authby                  = 'never'
-
-
+  
 ) inherits ::libreswan::params {
 
   simplib::assert_metadata($module_name)

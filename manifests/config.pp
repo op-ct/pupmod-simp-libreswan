@@ -71,6 +71,8 @@ class libreswan::config {
   $rightauth           = $::libreswan::rightauth
   $negotiationshunt    = $::libreswan::negotiationshunt
   $failureshunt        = $::libreswan::failureshunt
+  $negotiationshunt    = $::libreswan::negotiationshunt
+  $failureshunt        = $::libreswan::failureshunt
   $keyingtries         = $::libreswan::keyingtries
   $rekey               = $::libreswan::rekey
   $auto                = $::libreswan::auto
